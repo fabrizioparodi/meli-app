@@ -1,6 +1,7 @@
 Mercado Libre App
 
 FrontEnd -> React
+
 BackEnd -> Node.js
 
 /backend -> npm start para levantar el BackEnd en http://localhost:3001/
