@@ -1,0 +1,13 @@
+.search-results {
+    text-align: center;
+    width: 60%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.search-results-card {
+    width: 100%;
+    padding: 0;
+}

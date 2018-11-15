@@ -1,0 +1,32 @@
+.search-result-box {
+    display: flex;
+    margin: 16px;
+}
+
+.search-result-container {
+    width: 80%;
+    font-size: 14px;
+    display: flex;
+}
+
+.product-image-box {
+    width: 180px;
+    height: 180px;
+}
+
+.address-info {
+    font-size: 12px;
+    margin-top: 16px;
+    width: 20%;
+    text-align: left;
+}
+
+.item-info {
+    margin: 16px 0 0 16px;
+}
+
+.price-info {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 32px;
+}

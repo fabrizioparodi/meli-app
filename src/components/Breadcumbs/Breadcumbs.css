@@ -1,0 +1,13 @@
+.breadcumbs {
+  margin: 16px 0;
+  text-align: left;
+  width: 60%;
+}
+
+a.breadcumb {
+  color: #999999;
+}
+
+a.breadcumb.active {
+  color: #333333;
+}
