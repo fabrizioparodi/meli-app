@@ -14,7 +14,6 @@ class ProductDetail extends Component {
     axios
       .get(`api/items/${this.props.match.params.id}`)
       .then(response => {
-        console.log(response.data);
         this.setState({ product: response.data });
       })
       .catch(error => console.error(error));
@@ -28,7 +27,7 @@ class ProductDetail extends Component {
           <div className="img-section">
             <img
               className="product-image"
-              src={this.state.product.thumbnail}
+              src={this.state.product.picture}
               alt={this.state.product.title}
             />
             <div className="description-container">

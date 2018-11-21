@@ -11,6 +11,7 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "start:server": "node ./backend/app.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

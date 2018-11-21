@@ -7,13 +7,13 @@ module.exports.ProductDetail = class ProductDetail {
     this.price = new Price(
       itemResponse.currency_id,
       itemResponse.price,
-      itemResponse.price
+      parseInt(itemResponse.price % 1 * 100)
     );
     this.condition = itemResponse.condition;
     this.free_shipping = itemResponse.shipping.free_shipping;
     this.sold_quantity = itemResponse.sold_quantity;
     this.description = descriptionResponse.plain_text;
-    this.thumbnail = itemResponse.thumbnail;
+    this.picture = itemResponse.pictures[0].secure_url;
   }
 };
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 
+import freeShipping from "../../../assets/images/ic_shipping.png";
 import "./SearchResultBox.css";
 
 const searchResultBox = props => {
@@ -19,8 +20,13 @@ const searchResultBox = props => {
           <div className="item-info">
             <p className="price-info">
               <span> $ {props.item.price} </span>
+              {props.item.shipping.free_shipping ? (
+                <span>
+                  <img src={freeShipping} alt="envio gratis" />
+                </span>
+              ) : null}
             </p>
-            <p style={{fontSize: "18px"}}>{props.item.title}</p>
+            <p style={{ fontSize: "18px" }}>{props.item.title}</p>
           </div>
         </Link>
         <div className="address-info">{props.item.address.state_name}</div>

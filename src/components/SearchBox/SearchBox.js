@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import logo from "./../../assets/Logo_ML.png";
-import logo2 from "./../../assets/ic_Search.png";
+import logo from "./../../assets/images/Logo_ML.png";
+import logo2 from "./../../assets/images/ic_Search.png";
 
 import "./SearchBox.css";
 
