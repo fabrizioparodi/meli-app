@@ -1,11 +1,3 @@
-Mercado Libre App
+App made in React calling MELI Api's through a Node.JS Api
 
-FrontEnd -> React
-
-BackEnd -> Node.js
-
-/backend -> npm start para levantar el BackEnd en http://localhost:3001/
-
-npm start para levantar el FrontEnd en http://localhost:3000/
-
-Fabrizio Parodi
+`npm start` will run the UI on http://localhost:3000 and the API on http://localhost:3001
